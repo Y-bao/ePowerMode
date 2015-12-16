@@ -31,78 +31,7 @@ public class Particle {
 	public void setState(int state) {
 		this.state = state;
 	}
-
-	public float getWidht() {
-		return widht;
-	}
-
-	public void setWidht(float widht) {
-		this.widht = widht;
-	}
-
-	public float getHeight() {
-		return height;
-	}
-
-	public void setHeight(float height) {
-		this.height = height;
-	}
-
-	public float getX() {
-		return x;
-	}
-
-	public void setX(float x) {
-		this.x = x;
-	}
-
-	public float getY() {
-		return y;
-	}
-
-	public void setY(float y) {
-		this.y = y;
-	}
-
-	public double getXv() {
-		return xv;
-	}
-
-	public void setXv(double xv) {
-		this.xv = xv;
-	}
-
-	public double getYv() {
-		return yv;
-	}
-
-	public void setYv(double yv) {
-		this.yv = yv;
-	}
-
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
-	}
-
-	public int getLifetime() {
-		return lifetime;
-	}
-
-	public void setLifetime(int lifetime) {
-		this.lifetime = lifetime;
-	}
-
-	public Color getColor() {
-		return color;
-	}
-
-	public void setColor(Color color) {
-		this.color = color;
-	}
+	
 
 	// helper methods -------------------------
 	public boolean isAlive() {
