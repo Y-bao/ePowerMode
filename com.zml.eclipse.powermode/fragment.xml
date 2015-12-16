@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<fragment>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.zml.eclipse.powermode.PowerModeEditor"
+            contributorClass="org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditorActionContributor"
+            default="true"
+            icon="$nl$/icons/full/obj16/jcu_obj.png"
+            id="org.eclipse.jdt.ui.CompilationUnitEditor"
+            name="powermode"
+            symbolicFontName="org.eclipse.jdt.ui.editors.textfont">
+      </editor>
+   </extension>
+
+</fragment>

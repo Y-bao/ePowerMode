@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Powermode
+Bundle-SymbolicName: com.zml.eclipse.powermode;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: ZML
+Fragment-Host: org.eclipse.jdt.ui
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: com.zml.eclipse.powermode,
+ com.zml.eclipse.powermode.explosion
